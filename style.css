@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.video{
+    position: absolute;
+    left: 15%;
+    bottom: -5%;
+}
+
+#vid{
+    width: 90%;
+    height: 100%;
+}
+
+
+#taskbg{
+    position: relative;
+    background-color: #f3f3f3;
+    height: 6.25%;
+    top: 95%;
+}
+
+
+.winlogo{
+    position:absolute;
+    left: 40%;
+    bottom: -0.7%;
+    z-index: 110;
+}
+
+.vscodelogo{
+    position:absolute;
+    left: 47%;
+    bottom: -1.1%;
+    z-index: 110;
+}
+
+.edgelogo{
+    position:absolute;
+    left: 43.5%;
+    bottom: -1.1%;
+    z-index: 110;
+}
+
+.googlelogo{
+    
+    position:absolute;
+    left: 50.5%;
+    bottom: -0.1%;
+    z-index: 110;
+    width: 10%;
+}
+
+.startmenu{
+    position: absolute;
+    left: 25%;
+    bottom: -150%;
+    z-index: 110;
+    transition: all 0.4s ease-in;
+}
+
+.clocklogo{
+    position:absolute;
+    left: 53.5%;
+    bottom: -0.1%;
+    z-index: 110;
+}
+
+.newdate{
+    position: absolute;
+    font-size:1rem ;
+    font-family: 'Baloo Bhai', cursive;
+    bottom: 2%;
+    right: 3.5%;
+}
+
+.day{
+    position: absolute;
+    font-size:1rem ;
+    font-family: 'Baloo Bhai', cursive;
+    bottom: 1%;
+    right: 3.5%;
+}
