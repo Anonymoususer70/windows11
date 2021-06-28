@@ -25,11 +25,11 @@ function time() {
   let amPm = hrs < 12 ? " AM" : " PM";
 
   if (hrs > 12) {
-    h - 12;
+    hrs - 12;
   }
 
   if (hrs == 12) {
-    h = 12;
+    hrs = 12;
   }
 
   hrs = ("0" + hrs).slice(-2);
